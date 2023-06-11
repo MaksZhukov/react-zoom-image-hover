@@ -10,7 +10,7 @@ This package is for zooming image content on hovering
 
 ## Code example
 
-``
+```
 <Zoom
     height={500}
     width={830}
@@ -18,7 +18,7 @@ This package is for zooming image content on hovering
     src='image'
 />
 
-``
+```
 
 ## Props
 
