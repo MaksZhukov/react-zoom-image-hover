@@ -1,13 +1,13 @@
 import { useRef, useState, FC, CSSProperties, MouseEventHandler } from 'react'
 
 interface Props {
-	className?: string
-	zoomScale: number
 	height: string | number
 	width: string | number
 	src: string
+	className?: string
 	transitionTime?: number
-	style: CSSProperties
+	zoomScale?: number
+	style?: CSSProperties
 }
 
 const Zoom: FC<Props> = ({ className, zoomScale, height, width, style, src, transitionTime = 0.1 }) => {
