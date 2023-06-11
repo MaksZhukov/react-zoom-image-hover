@@ -8,6 +8,18 @@ This package is for zooming image content on hovering
 
 ![Preview](/demo.gif)
 
+## Code example
+
+``
+<Zoom
+    height={500}
+    width={830}
+    zoomScale={3}
+    src='image'
+/>
+
+``
+
 ## Props
 
 - **width** (number | string) - width of the source image (required).
