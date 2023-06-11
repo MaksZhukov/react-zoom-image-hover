@@ -10,7 +10,7 @@
       "target": "ES6",
       "importHelpers": true,
       "declaration": true,
-      "inlineSourceMap": true,
+      "sourceMap": true,
       "rootDir": "./src",
       "outDir": "./dist/esm",
       "strict": true,
